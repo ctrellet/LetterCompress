@@ -18,7 +18,7 @@ public class LetterCompressTest
         String input = "aabcccccaaa";
 
         //Test
-        String output = lc.compress(input);
+        String output = lc.toAlternativeString(input);
 
         //Assert
 

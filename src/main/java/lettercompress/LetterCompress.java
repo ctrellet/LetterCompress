@@ -12,7 +12,7 @@ public class LetterCompress
 {
     Map<String,Integer> strMap = new HashMap<String,Integer>(); ;
 
-    public String compress(String str){
+    public String toAlternativeString(String str){
         for(char theChar : str.toCharArray()){
             String myChar = String.valueOf(theChar);
             if(strMap.containsKey(myChar)){
